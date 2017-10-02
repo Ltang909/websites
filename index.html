@@ -101,6 +101,28 @@ Don't like it? Just send me an email or <a href="mailto:ltang9090@gmail.com">Cli
 <img src="Images/Linkedin.png" style="width: 100%;" />
 </a>
 </div>
+<div class="btmmenu">
+
+<div class="btmselection">
+<a href="http://www.leontang.ca">
+Home
+	</a>
+</div>
+<div class="btmselection">
+About Me
+</div>
+<div class="btmselection">
+Advertising
+</div>
+<div class="btmselection">
+	<a href="https://ltang909.github.io/websites/">
+Websites
+	</a>
+</div>
+
+
+
+</div>
 <br/><br/>
 <span style="color: #fff;">Made By</span><br/> <span style="color: gray;">Leon Tang - Digital Marketing Specialist </span>
 <br/>
@@ -127,6 +149,27 @@ body{
 margin: 0px !Important;
 }
 
+.btmselection a{
+color: #fff;
+text-decoration: none;
+}
+
+.btmselection{
+width: 100%;
+text-align: center;
+font-family: 'Dosis', sans-serif;
+}
+
+@media only screen and (max-width: 500px){.btmmenu{
+display: block !important;
+}
+}
+
+@media only screen and (min-width: 500px){.btmmenu{
+display: none !Important;
+}
+}
+
 .email a{
 text-decoration: none;
 }
@@ -146,15 +189,6 @@ text-decoration: none;
 .text a:hover{
 text-decoration: underline;
 }
-
-.selection a {
-    color: #fff;
-    text-decoration: none;
-}
-	
-.selection a:hover{
-	text-decoration: underline;
-	}
 
 @media only screen and (max-width: 500px){.website{
 width: 85% !important;
@@ -214,7 +248,15 @@ text-decoration: none !important;
 	font-family: 'Dosis', sans-serif;
 }
 
-
+.selection a {
+    color: #fff;
+    text-decoration: none;
+}
+	
+.selection a:hover{
+	text-decoration: underline;
+	}
+	
 .email{
 width: 15%;
 background: gray;
