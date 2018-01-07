@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <meta name="description" content="Past Websites." /><meta name="adwords, graphic design" content="Websites, Graphics, Google Adwords" />
 </head>
 <body>
@@ -35,9 +36,9 @@ Advertising
 Websites
 	</a>
 </div>
-</div>
 <div class="logo">
 <img src="Images/Leonlogo1.png" style="width: 80%;" />
+</div>
 </div>
 <div class="header">
 <h1>Websites</h1>
@@ -48,8 +49,8 @@ Websites
 <div class="websites">
 <center>
 <div class="website">
-<a target="_blank" href="http://angiepang.tk/">
-<img src="Images/Website1.png" style="width: 100%;" />
+<a target="_blank" href="http://jensen.group">
+<img src="Images/Website4.png" style="width: 100%;" />
 </a>
 </div>
 <div class="website">
@@ -65,7 +66,7 @@ Websites
 <div class="text">
 <strong>
 I believe that a professional website is the most important first impression to the general public. In today's age, the first action somebody takes when they show interest towards anything is to go on the web and search for it. 
-As a professional, anything with your branding on it reflects on your credibility. I believe that an up to date, responsive and polished website will not only provide visitors with a pleasant experience but will also perform better in conveying your mission statement. 
+As a professional, anything with your branding on it reflects on your credibility. I believe that an up-to-date, responsive and polished website will not only provide visitors with a pleasant experience but will also perform better in conveying your mission statement. 
 </strong>
 <br/>
 <br/>
@@ -75,7 +76,7 @@ Fully Responsive Websites
 Your sites are engineered to be fit for every device so that you are able to reach users on every type of Smartphone, Tablet or Computer. <br/>
 <br/>
 <span style="font-weight: 700">
-Up To Date Designs 
+Up-To-Date Designs 
 </span><br/>
 Nothing is more unprofessional than an out of date layout; a site that doesn't have an updated layout is a site that users will leave within seconds. Your sites are always maintained to be up to date and optimally user friendly. <br/>
 <br/>
@@ -143,7 +144,7 @@ Email Me
 </a>
 <br/>
 <br/>
-&#x24B8; &nbsp; copyright 2017 Leon Tang Designs 
+&#x24B8; &nbsp; copyright 2018 Leon Tang Designs 
 <br/>
 <br/>
 </center>
@@ -153,6 +154,7 @@ Email Me
 </body>
 
 <style>
+
 body{
 margin: 0px !Important;
 }
@@ -244,7 +246,7 @@ text-decoration: none !important;
     position: fixed;
     display: inline-block;
     float: right !important;
-    width: 95%;
+    width: 100%;
 }
 
 .selection {
@@ -314,7 +316,7 @@ font-size: 1em;
 }
 
 .logo{
-width: 12%;
+width: 8%;
 float: left;
 position: fixed;
 }
@@ -373,4 +375,19 @@ background-position-y: -200px;
 	background-attachment: fixed;
 }
 </style>
-</html
+</html>
+
+
+<script>
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".top").css("background" , "rgba(0, 0, 0, 0.5)");
+	  }
+	  else{
+		  $(".top").css("background" , "rgba(0, 0, 0, 0)");  	
+	  }
+  })
+})
+      </script>
